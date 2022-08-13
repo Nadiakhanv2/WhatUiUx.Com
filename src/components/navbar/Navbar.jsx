@@ -4,7 +4,7 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 // BEM --- Block Element Modifier
 const Menu = () => {
   return (
-  <>
+      <>
     <p>
       <a href="/">Home</a>
     </p>
@@ -19,8 +19,9 @@ const Menu = () => {
     </p>
     <p>
       <a href="/blog">Library</a>
-    </p>
-  </>);
+      </p>
+    </>
+  );
 }
 
 const Navbar = (props) => {
