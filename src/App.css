@@ -174,4 +174,37 @@ height:50.02px;
  line-height: 25px;
   background: #FF4820;
   border-radius: 5px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.gpt3NavbarMenu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+.gpt3NavbarMenu svg{
+  cursor: pointer;
+}
+.gpt3NavbarMenuConntainer{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  background: #031B34;
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.gpt3NavbarMenuConntainer p{
+  margin: 1rem 0;
+}
+.gpt3NavbarMenuContainerLinksSign {
+  display: none;
 }
