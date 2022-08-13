@@ -8,12 +8,14 @@ import Footer from './containers/footer/Footer';
 import Header from './containers/header/Header';
 import Possibilty from './containers/possibility/Possibilty';
 import WhatGPT3 from './containers/whatGPT3/WhatGPT3';
+import logo from "./logo.png";
+
 
 function App() {
   return (
     <div className="">
       <div className="gradientBg">
-        <Navbar />
+        <Navbar logo={ logo}/>
         <Header/>
       </div>
       <Brand />
