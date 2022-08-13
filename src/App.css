@@ -107,3 +107,71 @@ a{
             transform: scale(1);
   }
 }
+@media screen and (max-width: 700px){
+  .sectionPadd{
+    padding: 4rem;
+  }
+  .sectionMargin{
+    margin: 4rem;
+  }
+
+}
+@media screen and (max-width: 550px){
+  .sectionPadd{
+    padding: 4rem 2rem;
+  }
+  .sectionMargin{
+    margin: 4rem 2rem;
+  }
+
+}
+.gpt3Navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+.gpt3NavbarLinks{
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+}
+.gpt3NavbarLinksLogo{
+ margin-right: 2rem;
+}
+/* .gpt3NavbarLinksLogo img{
+width: 62.56px;
+height:50.02px;
+} */
+.gpt3NavbarLinksConntainer{
+  display: flex;
+  flex-direction: row;
+
+}
+.gpt3NavbarSign{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.gpt3NavbarLinksConntainer p,
+.gpt3NavbarSign p,
+.gpt3NavbarMenuConntainer p{
+  color: #fff;
+  font-weight: 500;
+  font: size 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.gpt3NavbarSign button,
+.gpt3NavbarMenuConntainer button{
+ padding: 0.5rem 1rem;
+ color: #fff;
+ font-weight: 500;
+ font-size: 18px;
+ line-height: 25px;
+  background: #FF4820;
+  border-radius: 5px;
+}
