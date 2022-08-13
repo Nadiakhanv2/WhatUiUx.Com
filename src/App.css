@@ -186,7 +186,7 @@ height:50.02px;
 .gpt3NavbarMenu svg{
   cursor: pointer;
 }
-.gpt3NavbarMenuConntainer{
+.gpt3NavbarMenuContainer {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -208,3 +208,32 @@ height:50.02px;
 .gpt3NavbarMenuContainerLinksSign {
   display: none;
 }
+@media screen and (max-width: 1050px){
+  .gpt3NavbarLinksConntainer{
+    display: none;
+  }
+  .gpt3NavbarMenu {
+    display: flex;
+  }
+}
+@media screen and (max-width: 700px){
+  .gpt3Navbar{
+    padding: 2rem 4rem;
+  }
+  
+}
+@media screen and (max-width: 550px){
+  .gpt3Navbar{
+    padding: 2rem;
+  }
+  .gpt3NavbarSign{
+    display: none;
+  }
+  .gpt3NavbarMenuConntainer{
+    top: 20px;
+  }
+  .gpt3NavbarMenuContainerLinksSign{
+    display: block;
+  }
+}
+  
